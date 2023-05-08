@@ -4,17 +4,12 @@
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
 * [Project Status](#project-status)
 * [Contact](#contact)
 
 
 ## General Information
 - This classless function script include takes as parameter the assignment group defined in the calling script, queries all the closed incidents with said assignment group, counts them, and loops through them to sum up all the resolution times. Then, it will divide the total resolution time by the number of incident in order to get and return the average resolution time. This script include can be used to trigger events when the resolution time is too high and breaches the SLA.
-
-## Technologies Used
-- ServiceNow
-- Javascript
 
 
 ## Project Status
